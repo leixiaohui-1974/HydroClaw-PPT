@@ -1,0 +1,23 @@
+# 所有Midjourney提示词
+
+
+## 4_seven_engines
+## Midjourney提示词
+> **建议：** Midjourney 生成整套图标时，建议使用 `--tile` 或明确“set of icons”以保持风格统一。
+
+**Prompt:**
+A professional set of 7 circular flat-style technology icons for a corporate presentation, arranged in a grid on a clean white background. 
+1. **Prediction:** A digital holographic crystal ball with data sparks. 
+2. **Optimization:** A precision bullseye with a laser focus point. 
+3. **Simulation:** Interlocking high-tech mechanical gears. 
+4. **Learning:** A stylized human brain with neural circuit patterns. 
+5. **Validation:** A sleek security shield with a subtle checkmark. 
+6. **Visualization:** A futuristic digital eye with a scanning HUD element. 
+7. **Collaboration:** A network of interconnected nodes and lines. 
+**Style:** Modern 3D matte finish, minimalist vector aesthetic, clean lines, professional UI design. 
+**Color Palette:** Corporate Blue (#5B9BD5), Vibrant Orange (#ED7D31), Leaf Green (#70AD47), and Golden Yellow (#FFC000). 
+**Technical details:** High resolution, 8k, soft soft shadows, isolated on white background, studio lighting --ar 16:9 --v 6.0
+
+---
+
+---

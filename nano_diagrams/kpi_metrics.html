@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KPI Metrics Dashboard</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .dashboard-container {
+            width: 1920px;
+            height: 1080px;
+            background-color: #ffffff;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 40px;
+            padding: 60px;
+        }
+
+        .kpi-card {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border: 2px solid #e0e0e0;
+        }
+
+        .large-number {
+            font-size: 120px;
+            font-weight: bold;
+            margin: 0;
+            line-height: 1;
+        }
+
+        .label {
+            font-size: 32px;
+            color: #333333;
+            margin-top: 20px;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .bilingual {
+            color: #888888;
+            font-size: 24px;
+            display: block;
+            margin-top: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Card 1 (top-left) -->
+        <div class="kpi-card">
+            <h1 class="large-number" style="color: #5B9BD5;">15%</h1>
+            <p class="label">能耗降低<span class="bilingual">Energy Reduction</span></p>
+        </div>
+
+        <!-- Card 2 (top-right) -->
+        <div class="kpi-card">
+            <h1 class="large-number" style="color: #4CAF50;">3-5x</h1>
+            <p class="label">效率提升<span class="bilingual">Efficiency Improvement</span></p>
+        </div>
+
+        <!-- Card 3 (bottom-left) -->
+        <div class="kpi-card">
+            <h1 class="large-number" style="color: #FF7043;">30%</h1>
+            <p class="label">漏损降低<span class="bilingual">Leakage Reduction</span></p>
+        </div>
+
+        <!-- Card 4 (bottom-right) -->
+        <div class="kpi-card">
+            <h1 class="large-number" style="color: #FFC000;">70%</h1>
+            <p class="label">培养周期缩短<span class="bilingual">Training Time Reduction</span></p>
+        </div>
+    </div>
+</body>
+</html>

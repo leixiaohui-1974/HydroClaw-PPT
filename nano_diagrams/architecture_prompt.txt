@@ -1,0 +1,38 @@
+Create a professional 4-layer architecture pyramid diagram for HydroClaw intelligent water network system.
+
+Layout: Isometric pyramid view, 4 horizontal layers stacked from bottom to top, 16:9 aspect ratio.
+
+Layers (bottom to top):
+1. Layer 4 "Object Layer & Component Library" (bottom, widest)
+   - Color: Cyan gradient (#44A5DC to #68B4E6)
+   - Icons: 3 component types - physical components (pipe, pump), hydraulic elements (node, link), network topology (graph)
+   - Label: "对象层与元件库 | Object Layer"
+
+2. Layer 3 "Computing Engine Layer"
+   - Color: Green gradient (#4CAF50 to #66BB6A)
+   - Icons: 7 small engine icons in a row - prediction, optimization, simulation, learning, verification, visualization, reporting
+   - Label: "计算引擎层 | Computing Engine Layer"
+
+3. Layer 2 "Skill Orchestration Layer"
+   - Color: Orange gradient (#FF7043 to #FF8A65)
+   - Icons: Workflow symbols - atomic skill, composite skill, process skill with inheritance arrows
+   - Label: "技能编排层 | Skill Orchestration Layer"
+
+4. Layer 1 "Cognitive Decision Layer" (top, narrowest)
+   - Color: Purple gradient (#7B1FA2 to #9C27B0)
+   - Icons: AI brain icon + rule engine icon (gears)
+   - Label: "认知决策层 | Cognitive Decision Layer"
+
+Style: 
+- Modern flat design, clean vector graphics
+- White background (#FFFFFF)
+- Subtle shadows between layers for depth
+- Sans-serif font (Arial/Helvetica)
+- Professional business presentation quality
+- Minimalist, clear visual hierarchy
+- High contrast for readability
+
+Technical specs:
+- Resolution: 1920x1080 pixels (16:9)
+- DPI: 300
+- Format: PNG with transparency support

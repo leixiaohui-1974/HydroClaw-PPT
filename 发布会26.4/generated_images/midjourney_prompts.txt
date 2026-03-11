@@ -1,0 +1,26 @@
+# Midjourney提示词
+
+## 1_cover
+/imagine 水网智能化概念图：蓝色渐变背景，水流纹理，神经网络连接线，智能基础设施剪影, professional business presentation style, clean design, modern tech aesthetic, blue and orange color scheme, white background, high quality, 4k --ar 16:9 --v 6
+
+## 2_architecture
+/imagine 四层金字塔架构图：从下到上分别是对象层(黄色)、引擎层(绿色)、技能层(橙色)、认知层(蓝色), professional business presentation style, clean design, modern tech aesthetic, blue and orange color scheme, white background, high quality, 4k --ar 16:9 --v 6
+
+## 3_cognitive_flow
+/imagine 认知决策流程图：用户输入→意图识别→规则匹配→(大模型/规则引擎)→Skill选择→引擎调用→结果输出, professional business presentation style, clean design, modern tech aesthetic, blue and orange color scheme, white background, high quality, 4k --ar 16:9 --v 6
+
+## 4_seven_engines
+/imagine 七个圆形图标：预测(水晶球)、优化(靶心)、仿真(齿轮)、学习(大脑)、验证(盾牌)、可视(眼睛)、协同(网络), professional business presentation style, clean design, modern tech aesthetic, blue and orange color scheme, white background, high quality, 4k --ar 16:9 --v 6
+
+## 5_components
+/imagine 三族元件库树状图：物理元件(蓝色)、水文元件(橙色)、模型元件(绿色)，每个分支下有具体元件, professional business presentation style, clean design, modern tech aesthetic, blue and orange color scheme, white background, high quality, 4k --ar 16:9 --v 6
+
+## 6_runtime
+/imagine 运行时序列图：用户→认知层→技能层→引擎层→对象层，箭头显示数据流向, professional business presentation style, clean design, modern tech aesthetic, blue and orange color scheme, white background, high quality, 4k --ar 16:9 --v 6
+
+## 7_roadmap
+/imagine 三阶段路线图：阶段1单点工具(蓝色)→阶段2 MBD验证(橙色)→阶段3全流程(绿色)，带时间轴, professional business presentation style, clean design, modern tech aesthetic, blue and orange color scheme, white background, high quality, 4k --ar 16:9 --v 6
+
+## 8_digital_twin
+/imagine 水网数字孪生场景：等距3D视图，水库、河道、泵站、管道，蓝绿色调，科技感, professional business presentation style, clean design, modern tech aesthetic, blue and orange color scheme, white background, high quality, 4k --ar 16:9 --v 6
+

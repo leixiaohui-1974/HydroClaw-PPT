@@ -1,0 +1,19 @@
+Filename: design_roadmap.png
+
+Prompt:
+A 3-phase roadmap timeline diagram.
+Phase 1 (Blue #5B9BD5): Single-Point Tools
+- Pump selection, Pipeline calculation, Cross-section optimization
+- Value: Replace Excel
+Phase 2 (Orange #ED7D31): MBD Validation
+- Digital twin system, Full system validation
+- Value: Reduce rework by 50%
+Phase 3 (Green #70AD47): Full Automation
+- Automated design generation
+- Value: 10x efficiency improvement
+Horizontal timeline with milestones and arrows.
+Professional roadmap style, white background.
+16:9 aspect ratio.
+
+Error: 404
+Response: {"error":{"code":404,"message":"Unsupported action: predict","status":"NOT_FOUND"}}

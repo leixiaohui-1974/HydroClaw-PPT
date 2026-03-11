@@ -1,0 +1,30 @@
+原始提示词:
+Generate a 4-layer architecture diagram in 3D pyramid style.
+
+Layers (bottom to top):
+1. OBJECT LAYER (Yellow #FFC000): Component library icons
+2. ENGINE LAYER (Green #70AD47): 7 engine icons in a row
+3. SKILL LAYER (Orange #ED7D31): Skill orchestration symbols
+4. COGNITIVE LAYER (Blue #5B9BD5): AI brain and rule engine icons
+
+Style:
+- Isometric 3D pyramid view
+- Each layer clearly separated with depth
+- Clean, professional design
+- Icons representing each layer's function
+- Arrows showing data flow between layers
+
+Technical:
+- Resolution: 1600x1200
+- White or light gray background
+- Clear layer labels
+- Professional infographic style
+
+============================================================
+
+Gemini响应:
+{
+  "action": "dalle.text2im",
+  "action_input": "{ \"prompt\": \"A professional 3D isometric pyramid architecture diagram with four distinct, separated horizontal layers. Bottom layer (OBJECT LAYER): Yellow (#FFC000), featuring icons of UI components and libraries. Second layer (ENGINE LAYER): Green (#70AD47), featuring a row of 7 engine/gear icons. Third layer (SKILL LAYER): Orange (#ED7D31), featuring symbols of orchestration and workflow nodes. Top layer (COGNITIVE LAYER): Blue (#5B9BD5), featuring an AI brain and rule engine icon. Style: Clean infographic, professional business presentation look, white background, subtle drop shadows for depth, thin arrows indicating upward data flow between layers. High resolution, clear labels for each layer.\", \"size\": \"1024x1024\" }",
+  "thought": "The user wants a specific 4-layer architecture diagram in a 3D pyramid style with specific colors, labels, and icons. I will generate an image that follows these technical specifications and aesthetic requirements for a professional business presentation."
+}

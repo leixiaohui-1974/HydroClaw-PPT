@@ -1,0 +1,16 @@
+Filename: architecture_pyramid.png
+
+Prompt:
+A 4-layer architecture pyramid diagram in isometric 3D style.
+From bottom to top:
+- Layer 4 (Yellow #FFC000): Object Layer with component icons
+- Layer 3 (Green #70AD47): Engine Layer with 7 engine symbols
+- Layer 2 (Orange #ED7D31): Skill Layer with orchestration symbols
+- Layer 1 (Blue #5B9BD5): Cognitive Layer with AI brain icon
+Each layer clearly separated with depth and shadows.
+Clean professional infographic style.
+White background, clear labels.
+16:9 aspect ratio.
+
+Error: 404
+Response: {"error":{"code":404,"message":"Unsupported action: predict","status":"NOT_FOUND"}}

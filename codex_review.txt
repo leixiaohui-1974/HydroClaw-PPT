@@ -1,0 +1,39 @@
+基于静态代码审阅（未实际执行脚本；环境策略阻止运行 `python`），结论如下。
+
+1. 图片/图表生成能力  
+- 结论：**基本没有**。代码只看到了文本框和矩形形状，没有真实插图/图表 API 调用。  
+- 证据：仅有 `add_shape`、`add_textbox`（[gen_hydroclaw_50.py:44](D:/cowork/ppt/gen_hydroclaw_50.py:44), [gen_hydroclaw_50.py:49](D:/cowork/ppt/gen_hydroclaw_50.py:49), [gen_hydroclaw_50.py:242](D:/cowork/ppt/gen_hydroclaw_50.py:242)）。  
+- 未发现：`add_picture` / `add_chart` / `ChartData` / `add_table`。
+
+2. 视觉设计质量  
+- 优点：有统一配色表、章节页模板、16:9 宽屏（[gen_hydroclaw_50.py:20](D:/cowork/ppt/gen_hydroclaw_50.py:20), [gen_hydroclaw_50.py:237](D:/cowork/ppt/gen_hydroclaw_50.py:237), [gen_hydroclaw_50.py:36](D:/cowork/ppt/gen_hydroclaw_50.py:36)）。  
+- 主要问题：  
+1. **重文本、弱视觉**：大量页面本质是“标题条 + 长 bullet 列表”（[gen_hydroclaw_50.py:57](D:/cowork/ppt/gen_hydroclaw_50.py:57)）。  
+2. **容易溢出/拥挤**：文本框高度固定 4 英寸、字号 18/20 且有行后距，部分页条目很多（如 [gen_hydroclaw_50.py:1205](D:/cowork/ppt/gen_hydroclaw_50.py:1205), [gen_hydroclaw_50.py:1264](D:/cowork/ppt/gen_hydroclaw_50.py:1264)）。  
+3. **字体体系缺失**：只设字号粗细，未设 `font.name`，跨设备可能风格漂移。  
+
+3. 是否符合现代 PPT 标准  
+- 结论：**部分符合，但整体偏传统“文档搬运型PPT”**。  
+- 符合点：16:9、章节化结构、颜色有一致性。  
+- 不足点：缺少数据可视化、信息图、图像叙事、版式多样性、模板层（母版）和自动排版策略，难达到当前“高信息密度但强可读”的现代演示标准。
+
+4. 具体改进建议（按优先级）  
+1. **P0：补齐视觉对象层**  
+- 引入 `add_chart`（KPI/对比页）和 `add_picture`（架构图、场景图、图标）。  
+- 把“图表”从文字描述变成真实图形页。  
+
+2. **P0：做自动分页/自适应排版**  
+- 对 `items` 超阈值时自动拆分成两页；或动态降低字号/行距。  
+- 重点改 `add_bullets` 的固定框策略（[gen_hydroclaw_50.py:59](D:/cowork/ppt/gen_hydroclaw_50.py:59)）。  
+
+3. **P1：建立母版与组件库**  
+- 至少做 5 种版式：封面、章节、双栏、图文、KPI 大数字。  
+- 避免 50 页几乎同构。  
+
+4. **P1：建立字体与层级系统**  
+- 显式设置中英文字体（标题/正文/注释三级），统一字重和行距。  
+
+5. **P2：增强信息设计**  
+- 把长 bullet 改成“结论句 + 3 证据 + 1 图”；每页一个主结论。  
+
+补充：代码还有一个小问题，`Path` 被导入但未使用（[gen_hydroclaw_50.py:14](D:/cowork/ppt/gen_hydroclaw_50.py:14)）。

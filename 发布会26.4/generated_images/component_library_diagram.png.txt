@@ -1,0 +1,34 @@
+原始提示词:
+Generate a component library diagram showing 3 categories.
+
+Categories:
+1. Physical Components (Blue #5B9BD5):
+   - Reservoir, River, Gate, Pump Station, Pipeline, Valve
+
+2. Hydrological Components (Orange #ED7D31):
+   - Rainfall, Evaporation, Runoff Generation, Flow Routing, Groundwater
+
+3. Model Components (Green #70AD47):
+   - Hydrodynamics, Water Quality, Ecology, Economics
+
+Style:
+- Tree structure or grouped boxes
+- Simple icon for each component
+- Color-coded by category
+- Clean, organized layout
+- Professional infographic style
+
+Technical:
+- Resolution: 1400x1000
+- White or light gray background
+- Clear category labels
+- Suitable for presentation
+
+============================================================
+
+Gemini响应:
+{
+  "action": "dalle.text2im",
+  "action_input": "{ \"prompt\": \"A professional component library diagram for a water management system. The layout is clean and organized into three distinct color-coded categories on a light gray background. Category 1: 'Physical Components' (Blue #5B9BD5) featuring icons for Reservoir, River, Gate, Pump Station, Pipeline, and Valve. Category 2: 'Hydrological Components' (Orange #ED7D31) featuring icons for Rainfall, Evaporation, Runoff Generation, Flow Routing, and Groundwater. Category 3: 'Model Components' (Green #70AD47) featuring icons for Hydrodynamics, Water Quality, Ecology, and Economics. Style is a modern business infographic with grouped boxes and simple, minimalist icons. Professional typography, high resolution, suitable for a corporate presentation.\", \"size\": \"1024x1024\" }",
+  "thought": "I will generate a professional infographic that follows the specific color coding and categorization requested. Since the user requested a specific resolution (1400x1000), I will aim for a balanced layout that fits well within the standard DALL-E square or wide output, ensuring the text and icons are clear and legible for a presentation."
+}

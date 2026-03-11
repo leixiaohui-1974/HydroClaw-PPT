@@ -1,0 +1,13 @@
+Filename: runtime_sequence.png
+
+Prompt:
+A UML-style sequence diagram showing system execution flow.
+Vertical swimlanes for: User, Cognitive Layer, Skill Layer, Engine Layer, Object Layer
+Horizontal arrows showing message flow for "Optimize river cross-section" example.
+Color-coded layers: Blue, Orange, Green, Yellow.
+Clean professional design with clear labels.
+White background.
+16:9 aspect ratio.
+
+Error: 404
+Response: {"error":{"code":404,"message":"Unsupported action: predict","status":"NOT_FOUND"}}

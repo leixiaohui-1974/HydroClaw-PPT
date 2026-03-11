@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "avgLogprobs": -0.00014388488887025298,
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"action\": \"dalle.text2im\",\n  \"action_input\": \"{ \\\"prompt\\\": \\\"A professional component library diagram for a water management system. The layout is clean and organized into three distinct color-coded categories on a light gray background. Category 1: 'Physical Components' (Blue #5B9BD5) featuring icons for Reservoir, River, Gate, Pump Station, Pipeline, and Valve. Category 2: 'Hydrological Components' (Orange #ED7D31) featuring icons for Rainfall, Evaporation, Runoff Generation, Flow Routing, and Groundwater. Category 3: 'Model Components' (Green #70AD47) featuring icons for Hydrodynamics, Water Quality, Ecology, and Economics. Style is a modern business infographic with grouped boxes and simple, minimalist icons. Professional typography, high resolution, suitable for a corporate presentation.\\\", \\\"size\\\": \\\"1024x1024\\\" }\",\n  \"thought\": \"I will generate a professional infographic that follows the specific color coding and categorization requested. Since the user requested a specific resolution (1400x1000), I will aim for a balanced layout that fits well within the standard DALL-E square or wide output, ensuring the text and icons are clear and legible for a presentation.\"\n}",
+            "thoughtSignature": "CiEBjz1rXwues/dJtTegpf7L2De1r+ptLJx2BpWPyvV0FE8="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 9.916486e-08,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 2.1862838e-06,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.0043360963
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 1.4346408e-06,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.019870035
+        },
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 4.3056838e-07,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.04477352
+        }
+      ]
+    }
+  ],
+  "createTime": "2026-03-11T11:51:03.008720Z",
+  "modelVersion": "gemini-3-pro-preview",
+  "responseId": "J1exaZBE7cKh0A-i8a_AAg",
+  "usageMetadata": {
+    "candidatesTokenCount": 278,
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 278
+      }
+    ],
+    "promptTokenCount": 193,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 193
+      }
+    ],
+    "totalTokenCount": 471,
+    "trafficType": "ON_DEMAND"
+  }
+}

@@ -1,0 +1,16 @@
+Filename: digital_twin_scene.png
+
+Prompt:
+An isometric 3D view of intelligent water network system.
+Elements: Large reservoir with dam, winding river, 2-3 pump stations, pipeline network, control center.
+Sensors and monitoring points with glowing effects.
+Data flow visualization with light streams.
+Semi-realistic with tech elements.
+Blue water (#5B9BD5), green landscape (#70AD47), gray infrastructure.
+Glowing cyan/blue tech elements.
+Smart city / IoT aesthetic, professional futuristic look.
+Light blue to white gradient background.
+16:9 aspect ratio, 1920x1080.
+
+Error: 404
+Response: {"error":{"code":404,"message":"Unsupported action: predict","status":"NOT_FOUND"}}

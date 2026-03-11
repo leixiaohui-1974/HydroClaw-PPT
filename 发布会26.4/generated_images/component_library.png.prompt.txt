@@ -1,0 +1,17 @@
+Filename: component_library.png
+
+Prompt:
+A component library diagram showing 3 categories in tree structure.
+Category 1 (Blue #5B9BD5): Physical Components
+- Reservoir, River, Gate, Pump Station, Pipeline, Valve
+Category 2 (Orange #ED7D31): Hydrological Components
+- Rainfall, Evaporation, Runoff, Flow Routing, Groundwater
+Category 3 (Green #70AD47): Model Components
+- Hydrodynamics, Water Quality, Ecology, Economics
+Each component with a simple icon.
+Clean organized layout, professional infographic style.
+White background.
+16:9 aspect ratio.
+
+Error: 404
+Response: {"error":{"code":404,"message":"Unsupported action: predict","status":"NOT_FOUND"}}

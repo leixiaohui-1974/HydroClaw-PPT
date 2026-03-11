@@ -1,0 +1,36 @@
+原始提示词:
+Generate a sequence diagram showing system execution flow.
+
+Sequence:
+User → Cognitive Layer → Skill Layer → Engine Layer → Object Layer → Result
+
+Example flow: "Optimize river cross-section"
+1. User inputs request
+2. Cognitive layer: Intent recognition + Rule matching
+3. Skill layer: Select "Cross-section Optimization" skill
+4. Engine layer: Call optimization + simulation engines
+5. Object layer: Read/update river component parameters
+6. Return: Optimized parameters + 3D visualization + Report
+
+Style:
+- UML-style sequence diagram
+- Vertical swimlanes for each layer
+- Horizontal arrows for messages
+- Color-coded layers (Blue, Orange, Green, Yellow)
+- Clean, professional design
+
+Technical:
+- Resolution: 1400x1000
+- White background
+- Clear labels and annotations
+- Suitable for presentation
+
+============================================================
+
+Gemini响应:
+**Diagramming the Process**
+
+I'm now formulating a prompt for an AI image generator to create a UML sequence diagram. It needs to be clear and precisely represent the "Optimize river cross-section" process. The prompt focuses on the structure, color-coding, and technical style, incorporating the correct layers and action sequences. I anticipate having to fine-tune the text after initial generation.
+
+
+

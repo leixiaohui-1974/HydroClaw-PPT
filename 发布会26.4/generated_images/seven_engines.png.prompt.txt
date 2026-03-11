@@ -1,0 +1,18 @@
+Filename: seven_engines.png
+
+Prompt:
+Seven minimalist circular icons for computation engines arranged in a grid.
+Icons:
+1. Prediction Engine: crystal ball (Blue #5B9BD5)
+2. Optimization Engine: target with arrow (Orange #ED7D31)
+3. Simulation Engine: rotating gears (Green #70AD47)
+4. Learning Engine: brain with neural connections (Yellow #FFC000)
+5. Validation Engine: shield with checkmark (Blue #5B9BD5)
+6. Visualization Engine: eye symbol (Orange #ED7D31)
+7. Collaboration Engine: connected network nodes (Green #70AD47)
+Flat design, consistent style, circular backgrounds.
+White background, professional look.
+16:9 aspect ratio.
+
+Error: 404
+Response: {"error":{"code":404,"message":"Unsupported action: predict","status":"NOT_FOUND"}}

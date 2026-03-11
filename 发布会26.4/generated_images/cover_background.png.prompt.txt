@@ -1,0 +1,14 @@
+Filename: cover_background.png
+
+Prompt:
+A professional technology background for presentation cover.
+Modern intelligent water network system concept.
+Deep blue gradient background (#1F497D to #44546A).
+Abstract flowing water patterns with neural network connection lines.
+Smart infrastructure silhouettes (dams, pipes, sensors).
+Clean, professional, suitable for text overlay.
+High contrast, corporate style.
+16:9 aspect ratio, 1920x1080.
+
+Error: 404
+Response: {"error":{"code":404,"message":"Unsupported action: predict","status":"NOT_FOUND"}}

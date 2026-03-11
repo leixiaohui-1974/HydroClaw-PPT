@@ -1,0 +1,31 @@
+原始提示词:
+Generate a flowchart diagram showing AI cognitive decision process.
+
+Flow:
+User Input → Intent Recognition → Rule Matching → [Split into two paths]
+Path 1 (Blue): Large Language Model (for uncertainty)
+Path 2 (Orange): Rule Engine (for certainty)
+Both paths → Skill Selection → Engine Invocation → Result Packaging → Output
+
+Style:
+- Professional flowchart with rounded rectangles
+- Clear directional arrows
+- Two-color scheme: Blue (#5B9BD5) for LLM, Orange (#ED7D31) for Rules
+- Clean, modern design
+- Icons for each step
+
+Technical:
+- Resolution: 1400x800
+- White background
+- Clear labels in English and Chinese
+- Suitable for presentation
+
+============================================================
+
+Gemini响应:
+**Prompt Refinement Underway**
+
+I am currently working on optimizing the prompt for the image generation tool. I've broken down the design into key elements for the prompt, including the style, colors, and bilingual labels. I am also adjusting the language to ensure crisp typography and improve the rendering of the Chinese text.
+
+
+

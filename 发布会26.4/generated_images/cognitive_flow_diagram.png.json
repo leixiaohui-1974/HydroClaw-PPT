@@ -1,0 +1,71 @@
+{
+  "candidates": [
+    {
+      "avgLogprobs": -0.5212373948896131,
+      "content": {
+        "parts": [
+          {
+            "text": "**Prompt Refinement Underway**\n\nI am currently working on optimizing the prompt for the image generation tool. I've broken down the design into key elements for the prompt, including the style, colors, and bilingual labels. I am also adjusting the language to ensure crisp typography and improve the rendering of the Chinese text.\n\n\n",
+            "thought": true
+          },
+          {
+            "text": "{\n  \"action\": \"dalle.text2im\",\n  \"action_input\": \"{ \\\"prompt\\\": \\\"A professional, high-quality flowchart diagram for a business presentation showing an AI cognitive decision process. The diagram is horizontal on a clean white background. Flow: 'User Input (用户输入)' -> 'Intent Recognition (意图识别)' -> 'Rule Matching (规则匹配)'. Then it splits into two parallel paths: Path 1 is Blue (#5B9BD5) labeled 'Large Language Model (大语言模型 - for uncertainty)'; Path 2 is Orange (#ED7D31) labeled 'Rule Engine (规则引擎 - for certainty)'. Both paths merge into 'Skill Selection (技能选择)' -> 'Engine Invocation (引擎调用)' -> 'Result Packaging (结果封装)' -> 'Output (输出)'. Style: Modern rounded rectangles, clear directional arrows, professional flat icons for each step, clean typography, bilingual labels in English and Chinese. Resolution 1400x800 aspect ratio.\\\", \\\"size\\\": \\\"1024x1024\\\" }\",\n  \"thought\": \"The user wants a professional flowchart representing an AI cognitive decision process with specific steps, colors, and bilingual labels (English and Chinese). I will generate an image that follows these logical steps and stylistic requirements, ensuring the blue and orange paths are distinct and the overall look is suitable for a corporate presentation.\"\n}",
+            "thoughtSignature": "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"
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 1.940839e-07,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 6.0050127e-07,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 8.690362e-07,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.019983768
+        },
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 2.4888706e-07,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.023453146
+        }
+      ]
+    }
+  ],
+  "createTime": "2026-03-11T11:50:36.524448Z",
+  "modelVersion": "gemini-3-pro-preview",
+  "responseId": "DFexaaCBIJSO4_UPzOmumAo",
+  "usageMetadata": {
+    "candidatesTokenCount": 298,
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 298
+      }
+    ],
+    "promptTokenCount": 185,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 185
+      }
+    ],
+    "thoughtsTokenCount": 572,
+    "totalTokenCount": 1055,
+    "trafficType": "ON_DEMAND"
+  }
+}

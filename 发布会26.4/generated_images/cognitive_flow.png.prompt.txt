@@ -1,0 +1,15 @@
+Filename: cognitive_flow.png
+
+Prompt:
+A professional flowchart showing AI cognitive decision process.
+Flow: User Input → Intent Recognition → Rule Matching → (split into two paths)
+Path 1 (Blue): Large Language Model for uncertainty
+Path 2 (Orange): Rule Engine for certainty
+Both paths merge → Skill Selection → Engine Invocation → Result Packaging → Output
+Modern flowchart with rounded rectangles and directional arrows.
+Blue (#5B9BD5) and Orange (#ED7D31) color scheme.
+White background, clean design.
+16:9 aspect ratio.
+
+Error: 404
+Response: {"error":{"code":404,"message":"Unsupported action: predict","status":"NOT_FOUND"}}

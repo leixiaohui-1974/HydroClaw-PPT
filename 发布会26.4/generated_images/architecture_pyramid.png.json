@@ -1,0 +1,67 @@
+{
+  "candidates": [
+    {
+      "avgLogprobs": -0.0001626016223818306,
+      "content": {
+        "parts": [
+          {
+            "text": "{\n  \"action\": \"dalle.text2im\",\n  \"action_input\": \"{ \\\"prompt\\\": \\\"A professional 3D isometric pyramid architecture diagram with four distinct, separated horizontal layers. Bottom layer (OBJECT LAYER): Yellow (#FFC000), featuring icons of UI components and libraries. Second layer (ENGINE LAYER): Green (#70AD47), featuring a row of 7 engine/gear icons. Third layer (SKILL LAYER): Orange (#ED7D31), featuring symbols of orchestration and workflow nodes. Top layer (COGNITIVE LAYER): Blue (#5B9BD5), featuring an AI brain and rule engine icon. Style: Clean infographic, professional business presentation look, white background, subtle drop shadows for depth, thin arrows indicating upward data flow between layers. High resolution, clear labels for each layer.\\\", \\\"size\\\": \\\"1024x1024\\\" }\",\n  \"thought\": \"The user wants a specific 4-layer architecture diagram in a 3D pyramid style with specific colors, labels, and icons. I will generate an image that follows these technical specifications and aesthetic requirements for a professional business presentation.\"\n}",
+            "thoughtSignature": "CiEBjz1rX24n+0r28V+bQOKY6fJB378VI7t5az0Cdm7u1AE="
+          }
+        ],
+        "role": "model"
+      },
+      "finishReason": "STOP",
+      "safetyRatings": [
+        {
+          "category": "HARM_CATEGORY_HATE_SPEECH",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 4.507756e-09,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE"
+        },
+        {
+          "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 1.4500727e-09,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.016402781
+        },
+        {
+          "category": "HARM_CATEGORY_HARASSMENT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 3.7394514e-08,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.086009756
+        },
+        {
+          "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+          "probability": "NEGLIGIBLE",
+          "probabilityScore": 2.3246864e-09,
+          "severity": "HARM_SEVERITY_NEGLIGIBLE",
+          "severityScore": 0.03344056
+        }
+      ]
+    }
+  ],
+  "createTime": "2026-03-11T11:50:26.348400Z",
+  "modelVersion": "gemini-3-pro-preview",
+  "responseId": "AlexafChFeK_odAPopuoiAY",
+  "usageMetadata": {
+    "candidatesTokenCount": 246,
+    "candidatesTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 246
+      }
+    ],
+    "promptTokenCount": 201,
+    "promptTokensDetails": [
+      {
+        "modality": "TEXT",
+        "tokenCount": 201
+      }
+    ],
+    "totalTokenCount": 447,
+    "trafficType": "ON_DEMAND"
+  }
+}
