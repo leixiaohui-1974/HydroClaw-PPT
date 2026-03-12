@@ -18,3 +18,13 @@ aicode.env
 
 # 生成的图片（可通过脚本重新生成）
 发布会26.4/images/generated/
+
+# 第三方克隆仓库
+PPTAgent/
+presenton/
+
+# Gamma分片文件（只保留合并后的最终版）
+发布会26.4/output/gamma_parts/
+
+# PPT素材中的大文件
+发布会26.4/ppt_assets/team/ppt/media/
