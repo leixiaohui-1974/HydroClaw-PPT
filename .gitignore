@@ -28,3 +28,9 @@ presenton/
 
 # PPT素材中的大文件
 发布会26.4/ppt_assets/team/ppt/media/
+发布会26.4/ppt_assets/theory/ppt/media/
+
+# 临时脚本和日志
+generate_presenton.py
+test_presenton_*.py
+presenton_log.txt
