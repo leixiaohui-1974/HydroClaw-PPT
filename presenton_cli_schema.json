@@ -1,0 +1,129 @@
+{
+  "title": "Presenton CLI Slide Definition Schema",
+  "description": "JSON格式定义幻灯片内容，由 presenton_cli.py 渲染为PPTX。支持8种幻灯片类型。",
+  "format": {
+    "title": "演示文稿标题 (string)",
+    "slides": "幻灯片数组 (array of slide objects)"
+  },
+  "slide_types": {
+    "cover": {
+      "description": "封面页 — 深色背景，左侧装饰条",
+      "params": {
+        "title": "主标题 (必填)",
+        "subtitle": "副标题，支持\\n换行 (可选)",
+        "author": "作者/单位信息 (可选)"
+      },
+      "example": {
+        "type": "cover",
+        "title": "HydroClaw",
+        "subtitle": "水网认知智能体系发布会",
+        "author": "中国水科院"
+      }
+    },
+    "chapter": {
+      "description": "章节分隔页 — 主色背景，大标题",
+      "params": {
+        "chapter_num": "章节编号，如 '一'、'二·一' (必填)",
+        "title": "章节标题 (必填)",
+        "subtitle": "章节副标题 (可选)"
+      },
+      "example": {
+        "type": "chapter",
+        "chapter_num": "一",
+        "title": "愿景与定位",
+        "subtitle": "水利行业的AI革命"
+      }
+    },
+    "content": {
+      "description": "标准内容页 — 白底，标题+要点列表",
+      "params": {
+        "title": "页面标题 (必填)",
+        "bullets": "要点列表 (必填)，支持 >>, ✔, 01 等前缀",
+        "note": "底部备注 (可选)"
+      },
+      "example": {
+        "type": "content",
+        "title": "核心能力",
+        "bullets": [">> 能力一：描述", ">> 能力二：描述", "✔ 能力三：描述"]
+      }
+    },
+    "two_column": {
+      "description": "双栏对比页 — 左右圆角卡片",
+      "params": {
+        "title": "页面标题 (必填)",
+        "left_title": "左栏标题 (必填)",
+        "left_items": "左栏要点列表 (必填)",
+        "right_title": "右栏标题 (必填)",
+        "right_items": "右栏要点列表 (必填)"
+      },
+      "example": {
+        "type": "two_column",
+        "title": "方案对比",
+        "left_title": "方案A",
+        "left_items": ["优点1", "优点2"],
+        "right_title": "方案B",
+        "right_items": ["特点1", "特点2"]
+      }
+    },
+    "highlight": {
+      "description": "高亮强调页 — 深色背景，大字核心观点",
+      "params": {
+        "label": "顶部标签文字 (必填)",
+        "main_text": "核心大字，支持\\n换行 (必填)",
+        "sub_text": "底部辅助说明 (可选)"
+      },
+      "example": {
+        "type": "highlight",
+        "label": "核心洞察",
+        "main_text": "从经验驱动走向认知智能驱动",
+        "sub_text": "这不是技术升级，而是范式转变"
+      }
+    },
+    "stats": {
+      "description": "数据统计页 — 大数字卡片（支持2-4列）",
+      "params": {
+        "title": "页面标题 (必填)",
+        "stats": "数据数组，每项为 [数字, 标签] (必填)"
+      },
+      "example": {
+        "type": "stats",
+        "title": "关键指标",
+        "stats": [["100+", "功能模块"], ["15%", "效率提升"], ["99.9%", "可用性"]]
+      }
+    },
+    "numbered_list": {
+      "description": "编号列表页 — 左侧圆形编号",
+      "params": {
+        "title": "页面标题 (必填)",
+        "items": "条目列表 (必填)，自动编号01-N"
+      },
+      "example": {
+        "type": "numbered_list",
+        "title": "实施路线",
+        "items": ["调研需求", "设计架构", "开发实现", "测试部署"]
+      }
+    },
+    "three_card": {
+      "description": "三卡片页 — 三列圆角卡片并列展示",
+      "params": {
+        "title": "页面标题 (必填)",
+        "cards": "卡片数组，每项为 [卡片标题, [内容行列表]] (必填，恰好3个)"
+      },
+      "example": {
+        "type": "three_card",
+        "title": "产品亮点",
+        "cards": [
+          ["智能", ["AI驱动决策", "多Agent协同"]],
+          ["专业", ["水利领域深耕", "14个核心算法"]],
+          ["开放", ["全栈开源", "社区驱动"]]
+        ]
+      }
+    }
+  },
+  "design_notes": {
+    "coordinate_system": "Presenton使用 1280x720 pt 坐标系",
+    "color_theme": "深海科技蓝 — PRIMARY:#005BAC, SECONDARY:#00B4D8, ACCENT:#F26419",
+    "fonts": "中文: Microsoft YaHei, 英文: Geist/Arial",
+    "rendering": "Presenton PptxPresentationCreator 原生渲染，支持圆角、阴影、Keynote兼容"
+  }
+}
