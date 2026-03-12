@@ -39,6 +39,9 @@ node_modules/
 发布会26.4/ppt_assets/team/ppt/media/
 发布会26.4/ppt_assets/theory/ppt/media/
 
+# 知识库图片素材（太大，本地保留）
+ppt_knowledge_base/images/
+
 # 临时脚本和日志
 generate_presenton.py
 test_presenton_*.py
