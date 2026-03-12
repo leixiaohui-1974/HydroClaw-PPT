@@ -19,9 +19,18 @@ aicode.env
 # 生成的图片（可通过脚本重新生成）
 发布会26.4/images/generated/
 
-# 第三方克隆仓库
-PPTAgent/
-presenton/
+# 第三方克隆仓库中的大文件和缓存
+PPTAgent/.git/
+PPTAgent/.venv/
+presenton/.git/
+presenton/electron/servers/fastapi/build/
+presenton/servers/fastapi/chroma/
+presenton/electron/resources/
+presenton/app_data/
+presenton/temp_data/
+presenton/servers/fastapi/start_server.py
+node_modules/
+.venv/
 
 # Gamma分片文件（只保留合并后的最终版）
 发布会26.4/output/gamma_parts/
